@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbar-container>div>img{
+    height: 50px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    gap: 50px;
+}
+.list-items{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search-icon{
+    font-size: 60px;
+}
+.nav-button{
+    font-size: 18px;
+    padding: 7px 40px;
+    border-radius: 10px;
+}
+/* Hero Section */
+
+
+.hero-container{
+    display: flex;
+    position: relative;
+}
+.hero-container>div>img{
+    height: 450px;
+    padding-left: 100px;
+}
+.square{
+    position: absolute;
+    z-index: -1;
+    left: 225px;
+    top: 190px;
+}
+.square>img{
+    height: 300px;
+}
+.star{
+   position:absolute;
+   top: 20px;
+   right: 220px;
+}
+.star>img{
+    height: 50px;
+}
+.globe{
+    position: absolute;
+    left: 700px;
+}
+.globe>img{
+    height: 50px;
+}
+
+
+.hero-container-right{
+    text-align: center;
+    padding: 100px 100px 0px 100px;
+}
+.hero-container-right>h1{
+    font-size: 50px;
+}
+.hero-container-right>p{
+    padding: 40px 50px;
+}
+
+.button-email{
+    font-size: 15px;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.button-join{
+    font-size: 15px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: 0px;
+}
+
+.contact-heading{
+    padding-top: 60px;
+    font-size: 22px;
+}
+
+.icons{
+    padding-top: 10px;
+}
+
+.icons>span{
+    margin: 10px;
+}
+.icons>span>img{
+    height: 30px;
+}
